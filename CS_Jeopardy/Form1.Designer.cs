@@ -86,6 +86,11 @@
             this.lblT2Amt = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblT3Amt = new System.Windows.Forms.Label();
+            this.fileOpsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.newFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.writeFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.readFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.savFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.mnuMain.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -189,8 +194,9 @@
             // 
             this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gamesToolStripMenuItem,
             this.designToolStripMenuItem,
+            this.fileOpsToolStripMenuItem,
+            this.gamesToolStripMenuItem,
             this.testToolStripMenuItem,
             this.aboutToolStripMenuItem,
             this.exitToolStripMenuItem1});
@@ -207,7 +213,7 @@
             this.quitGameToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.gamesToolStripMenuItem.Name = "gamesToolStripMenuItem";
-            this.gamesToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.gamesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.gamesToolStripMenuItem.Text = "&Games";
             // 
             // newGameToolStripMenuItem
@@ -234,7 +240,7 @@
             this.designToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.buildQuestionsToolStripMenuItem});
             this.designToolStripMenuItem.Name = "designToolStripMenuItem";
-            this.designToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.designToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.designToolStripMenuItem.Text = "&Design";
             // 
             // buildQuestionsToolStripMenuItem
@@ -250,7 +256,7 @@
             this.qnAFormToolStripMenuItem,
             this.qnABuilderToolStripMenuItem});
             this.testToolStripMenuItem.Name = "testToolStripMenuItem";
-            this.testToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.testToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.testToolStripMenuItem.Text = "Test";
             // 
             // qnAFormToolStripMenuItem
@@ -269,14 +275,14 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.aboutToolStripMenuItem.Text = "&About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem1
             // 
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
-            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(110, 22);
+            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.exitToolStripMenuItem1.Text = "E&xit";
             this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
             // 
@@ -745,6 +751,35 @@
             this.lblT3Amt.Text = "0";
             this.lblT3Amt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // fileOpsToolStripMenuItem
+            // 
+            this.fileOpsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newFileToolStripMenuItem,
+            this.writeFileToolStripMenuItem,
+            this.readFileToolStripMenuItem});
+            this.fileOpsToolStripMenuItem.Name = "fileOpsToolStripMenuItem";
+            this.fileOpsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.fileOpsToolStripMenuItem.Text = "File Ops";
+            // 
+            // newFileToolStripMenuItem
+            // 
+            this.newFileToolStripMenuItem.Name = "newFileToolStripMenuItem";
+            this.newFileToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.newFileToolStripMenuItem.Text = "New File";
+            // 
+            // writeFileToolStripMenuItem
+            // 
+            this.writeFileToolStripMenuItem.Name = "writeFileToolStripMenuItem";
+            this.writeFileToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.writeFileToolStripMenuItem.Text = "Write File";
+            this.writeFileToolStripMenuItem.Click += new System.EventHandler(this.writeFileToolStripMenuItem_Click);
+            // 
+            // readFileToolStripMenuItem
+            // 
+            this.readFileToolStripMenuItem.Name = "readFileToolStripMenuItem";
+            this.readFileToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.readFileToolStripMenuItem.Text = "Read File";
+            // 
             // frm_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -866,6 +901,11 @@
         private System.Windows.Forms.Label lblT2Amt;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblT3Amt;
+        private System.Windows.Forms.ToolStripMenuItem fileOpsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem newFileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem writeFileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem readFileToolStripMenuItem;
+        private System.Windows.Forms.SaveFileDialog savFileDialog;
     }
 }
 

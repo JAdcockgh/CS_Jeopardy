@@ -1,0 +1,30 @@
+1, Kings, He wanted to cut a baby in 1/2., Who is King Solomon?, 100, 0
+1, Kings, He was the last earthly King to rule., Who is King Zedekiah?, 200, 0
+1, Kings, He was the 1st King of the 10 tribe kingdom., Who is King Rehoboam?, 300, 0
+1, Kings, He stole Naboth's vineyard., Who is King Ahab?, 400, 0
+1, Kings, This 'King' was actually a Queen., Who is Queen Athaliah?, 500, 0
+1, Cities, The house of God, What is Bethel?, 100, 0
+1, Cities, The unitentional manslayer would flee here., What is the city of refuge?, 200, 0
+1, Cities, Abram left here with Terah and Sarai., What is the city of Ur, 300, 0
+1, Cities, Jesus performed his first miracle here., What is the city of Cana?, 400, 0
+1, Cities, Samson visited a protitue in this city., What is the city of Gaza?, 500, 0
+1, Books of the Bible, This is the 3rd book of the Pentateuch, What is the book of Levitcus?, 100, 0
+1, Books of the Bible, Here is where get 'a day for a year'., What is the book of Numbers?, 200, 0
+1, Books of the Bible, This book is the Bible's shortest., What is the 3rd letter of John, 300, 0
+1, Books of the Bible, This is also known as a dirge., What is the book of Lamentations?, 400, 0
+1, Books of the Bible, Here can be found a geneology of the Kings of Isreal and Judah., What is the book of 2 Chronicles?, 500, 0
+1, People, His father was the 1st King of united Israel., Who is Johnathan?, 100, 0
+1, People, He was David's Uncle and Chief of the Army'., Who is Joab?, 200, 0
+1, People, He died five years before the Noahachian flood., Who is Lamech?, 300, 0
+1, People, He replaced Judas Iscariot., Who is Mathias?, 400, 0
+1, People, He was an escaped slave who became a Chritian., Who is Onesimus?, 500, 0
+1, Prophets, He was drawn out of water, Who is Moses?, 100, 0
+1, Prophets, This prophet was formerly a nipper of figs'., Who is Amos?, 200, 0
+1, Prophets, This prophet foretold someone coming greater than he., Who is John the baptist., 300, 0
+1, Prophets, This prophet foretold Josiah's great campaign to cleanse the land., Who is the man of the true God?, 400, 0
+1, Prophets, This prophet foretold Paul's arrest and imprisonment in Jerusalem., Who is Agabus?, 500, 0
+1, Principles, This pnrinciple is why we don't smoke, What is 1Cor 7:1?, 100, 0
+1, Principles, This principle is the identifying mark of Christ's disciples.'., What is John 13:35?, 200, 0
+1, Principles, This principle is why we do no ttake in blood., What is Acts 15:19, 300, 0
+1, Principles, This principle governs how we treat others., What is Matthew 7:12?, 400, 0
+1, Principles, This Bible principle sets the standard for a scriptural divorce., What is Mathew 19:9?, 500, 0

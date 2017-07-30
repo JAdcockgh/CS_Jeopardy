@@ -365,5 +365,37 @@ namespace CS_Jeopardy
             else
                 MessageBox.Show(strTmNum + "test result is INCORRECT Answer", "Answer form test Results", MessageBoxButtons.OK);
         }
+
+        private void writeFileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string line = "";
+            // Example #3: Write only some strings in an array to a file. 
+            // The using statement automatically closes the stream and calls  
+            // IDisposable.Dispose on the stream object. 
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"C:\Users\sds admin\Documents\Visual Studio 2015\Projects\CS_Jeopardy\WriteLines2.txt"))
+            {
+                //-- loop through the array and write it to the file
+                for (int i = 0; i < 6; i++)
+                {//-- process the columns first -- COLUMN MAJOR ARRAY
+                    for (int j = 0; j< 5; j++)
+                    {//-- process rows
+                        for (int k = 0; k < 6; k++)
+                        {//-- process each elements
+                            //-- build the line of elements that constitute the info for each cell
+                            line = line + strRnd1[i, j, k];
+                            //-- build the delimiters
+                            if (k != 5)
+                                line = line + ", ";
+                        }
+                        //-- one line ha sbeen built - write it to the file
+                        file.WriteLine(line);
+                        line = "";
+                    }
+
+                }
+
+            }
+
+        }
     }
 }
